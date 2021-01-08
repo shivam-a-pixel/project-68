@@ -1,0 +1,51 @@
+#marqueeStyle
+{
+	background-color: aqua;
+}
+.list{
+   font-size: 30;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: aqua;
+}
+.my_nav_bar
+{
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+	background-color: black;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+hr
+{
+	background-color:black;
+	height: 10;
+}
+body
+{
+	background-color: crimson;
+	/*text-align: center;*/
+}
+#deatails
+{
+	text-align: right;
+}
+li
+{
+	display: inline;
+	float: left;
+	border-right: 1px solid #bbb;
+}
+li a
+{
+	display: block;
+  padding: 8px;
+  color: aqua;
+}
+li:hover {
+  background-color: #4CAF50;
+}
